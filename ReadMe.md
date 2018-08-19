@@ -1,5 +1,7 @@
-sOME EXAMPLES TO RUN 
+SOME EXAMPLES TO RUN 
 ====================
+Run the feature file manually or use the below commands. The farmework is capable of executing the feature files in parallel and also across differnet local browsers
+
 mvn  -Dtest=SomePatternThatDontMatchAnything -DfailIfNoTests=false clean verify
 mvn verify -Dtest=SomePatternThatDontMatchAnything -DfailIfNoTests=false -Dcucumber.options="--tags @smoke
 
